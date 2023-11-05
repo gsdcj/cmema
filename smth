@@ -1,0 +1,3 @@
+    img.src = imgs[i]
+    img.classList.add('img-thumbnail')    img.src = imgs[i]
+        img.classList.ad

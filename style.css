@@ -1,0 +1,56 @@
+body{
+    background: rgb(10, 5, 10);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.head{
+    color: white;
+    font-size: 1rem;
+}
+span{
+    color: red;
+}
+.name,
+.btn{
+    background: none;
+}
+svg{
+    color: white;
+}
+.holder{
+   
+    color: white;
+}
+.disc{
+    color: white;
+}
+.spin{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background: black;
+    z-index: 111;
+}
+.box{
+    width: 2rem;
+    height: 2rem;
+    background: red;
+    margin: auto;
+    top: 50%;
+    bottom: 0;
+    right: 0;
+    border-top: 3px solid blue;
+    left: 0;
+    border-radius: 50%;
+    animation: bounce 2s infinite;
+}
+@keyframes bounce{
+    from{
+        transform: translateY(0px)
+    }
+    to{
+        transform: translateY(100px)
+    }
+}

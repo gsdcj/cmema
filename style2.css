@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(10, 5, 10)
+}
+.container{
+    width: 100vw;
+    height: 60vh;
+    position: absolute;
+}
+.image{
+    position: relative;
+    width: 90vw;
+    margin-top: 1rem;
+}
+p{
+    color: white;
+    margin-top: 1rem;
+}
+.similar{
+    color: white;
+}
+.img{
+    position: relative;
+    width: 30vw;
+    height: 30vh;
+    margin-right: 0.5rem;
+}
+.thumbnails{
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+} 
+::webkit-scrollbar{
+    display: none;
+}
